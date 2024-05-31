@@ -1,0 +1,100 @@
+body {
+    background-color: #e0e0e0;
+    /* Light grey background */
+}
+
+.container {
+    background-color: #e0e0e0e4;
+}
+
+.onboarding-container {
+    background-color: #f8f9fa;
+    /* Light background for form container */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: inset 0px 0px 0px 25px rgba(170, 167, 167, 0.1);
+    /* Inset box shadow for all sides */
+}
+
+.onboarding-title {
+    position: absolute;
+    top: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    box-shadow: inset 0px 0px 0px 6px #776e6e4a;
+}
+
+.custom-input {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    /* Bootstrap default input border color */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    /* box-shadow: inset 11px 15px 11px 15px grey; */
+}
+
+.custom-input:focus {
+    border-color: #80bdff;
+    /* Bootstrap primary color */
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    /* Bootstrap primary color with opacity */
+
+}
+
+/* Custom CSS for floating label */
+.floating-label {
+    pointer-events: none;
+    position: absolute;
+    left: 1rem;
+    top: 1rem;
+    transition: top 0.2s, font-size 0.2s;
+    font-weight: bold;
+}
+
+.form-floating {
+    box-shadow: inset 0px 0px 5px 5px lightgrey;
+}
+
+.custom-input {
+    box-shadow: inset 0px 0px 5px 5px lightgrey;
+}
+
+.form-control:focus+.floating-label,
+.form-control:not(:placeholder-shown)+.floating-label {
+    top: -1rem;
+    font-size: 1rem;
+    color: #007bff;
+    /* Bootstrap primary color */
+}
+
+.btn-submit {
+    background-color: #17a2b8;
+    border: none;
+    padding: 10px 40px;
+    font-size: 1.2rem;
+}
+
+.btn-submit:hover {
+    background-color: #138496;
+}
+
+.position-relative .file-input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 2;
+}
+
+#cvText {
+    pointer-events: none;
+}
