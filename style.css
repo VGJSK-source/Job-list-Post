@@ -99,3 +99,19 @@ body {
 #cvText {
     pointer-events: none;
 }
+
+.remove-file {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: red;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.file-input:focus+.remove-file,
+.file-input:not(:placeholder-shown)+.remove-file {
+    display: block;
+}

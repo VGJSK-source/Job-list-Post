@@ -27,6 +27,7 @@ body {
     background-color: #69696926;
     box-shadow: inset 1px 0px 8px 5px #b5c2cfa8;
     border-radius: 20px;
+    padding: inherit;
 }
 
 .text-center {
@@ -53,13 +54,41 @@ body {
     background-color: silver;
 }
 
+/* .section-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+    background-color: #80808070;
+} */
+
 .section-title {
     font-size: 1.2rem;
     font-weight: bold;
     color: #333333;
     margin-bottom: 10px;
     background-color: #80808070;
+    white-space: nowrap;
+    /* Prevent the text from wrapping */
+    overflow: hidden;
+    /* Hide any overflow text */
+    text-overflow: ellipsis;
+    /* Add ellipsis (...) if text overflows */
+    padding: 0.5rem;
+    /* Adjust padding to ensure text fits well */
 }
+
+@media (max-width: 576px) {
+
+    /* Adjust for small screens */
+    .section-title {
+        font-size: 1rem;
+        /* Decrease font size for small screens */
+        padding: 0.3rem;
+        /* Adjust padding for small screens */
+    }
+}
+
 
 .section-detail {
     font-size: 1rem;
@@ -101,7 +130,30 @@ body {
     font-size: x-large;
     /* font-size: 1.2rem; */
     border-radius: 5px;
+
+    white-space: nowrap;
+    /* Prevent the text from wrapping */
+    overflow: hidden;
+    /* Hide any overflow text */
+    text-overflow: ellipsis;
+    /* Add ellipsis (...) if text overflows */
+    padding: 0.5rem;
+    /* Adjust padding to ensure text fits well */
+
+
 }
+
+@media (max-width: 576px) {
+
+    /* Adjust for small screens */
+    .btn-apply {
+        font-size: 1rem;
+        /* Decrease font size for small screens */
+        padding: 0.3rem;
+        /* Adjust padding for small screens */
+    }
+}
+
 
 .btn-apply:hover {
     background-color: #138496;
