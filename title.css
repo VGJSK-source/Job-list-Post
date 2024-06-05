@@ -3,7 +3,8 @@ body {
 }
 
 .job-listing-card {
-    background-color: #495057;
+    /* background-color: #495057; */
+    background-color: #D9D9D9;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -17,15 +18,16 @@ body {
 
 .jobtitle {
 
-    background-color: #8080804a;
-    box-shadow: inset 3px -4px 15px 3px #e7e1e191;
+    background-color: #D2D2D2;
+    /* box-shadow: inset 3px -4px 15px 3px #e7e1e191; */
     padding: inherit;
     border-radius: 20px;
 }
 
 .jdinfo {
-    background-color: #69696926;
-    box-shadow: inset 1px 0px 8px 5px #b5c2cfa8;
+    /* background-color: #69696926; */
+    background-color: #D1D1D1;
+    /* box-shadow: inset 1px 0px 8px 5px #b5c2cfa8; */
     border-radius: 20px;
     padding: inherit;
 }
@@ -49,9 +51,9 @@ body {
 
 .job-section {
     margin-top: 20px;
-    box-shadow: inset 0px 0px 5px 4px #a9a9a9a1;
+    /* box-shadow: inset 0px 0px 5px 4px #a9a9a9a1; */
     border-radius: 20px;
-    background-color: silver;
+    background-color: #D9D9D9;
 }
 
 /* .section-title {
@@ -76,6 +78,7 @@ body {
     /* Add ellipsis (...) if text overflows */
     padding: 0.5rem;
     /* Adjust padding to ensure text fits well */
+    background-color: #C5C2C2;
 }
 
 @media (max-width: 576px) {
@@ -124,7 +127,7 @@ body {
 
 .btn-apply {
 
-    background-color: #6c757d;
+    background-color: #6BCDF8;
     border: none;
     padding: 10px 40px;
     font-size: x-large;

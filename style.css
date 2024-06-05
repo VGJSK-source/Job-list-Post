@@ -8,29 +8,42 @@ body {
 }
 
 .onboarding-container {
-    background-color: #495057;
+    /* background-color: #495057; */
+    /* background-color: #D9D9D9; */
+    background-color: #CFCFCF;
+
+
     /* Light background for form container */
     padding: 20px;
     border-radius: 10px;
     position: relative;
-    box-shadow: inset 0px 0px 0px 25px rgba(170, 167, 167, 0.1);
+    /* box-shadow: inset 0px 0px 0px 45px rgba(170, 167, 167, 0.1); */
+    box-shadow: inset 0px 0px 0px 50px rgb(217, 217, 217);
+
     /* Inset box shadow for all sides */
 }
 
 .onboarding-title {
     position: absolute;
-    top: -24px;
+    top: 25px;
     left: 50%;
     transform: translateX(-50%);
     background: white;
+    background-color: #E7E7E7;
+
     padding: 5px 10px;
     border-radius: 20px;
     font-weight: bold;
     font-size: 1.5rem;
-    box-shadow: inset 0px 0px 0px 6px #776e6e4a;
+    box-shadow: inset 0px 0px 0px 0px #776e6e4a;
+}
+
+.m-5 {
+    margin: 5rem !important;
 }
 
 .custom-input {
+    background-color: #D9D9D9;
     border-radius: 5px;
     border: 1px solid #ced4da;
     /* Bootstrap default input border color */
@@ -58,12 +71,15 @@ body {
 }
 
 .form-floating {
-    box-shadow: inset 0px 0px 5px 5px lightgrey;
+    /* box-shadow: inset 0px 0px 5px 5px lightgrey; */
     border-radius: 5px;
+    background-color: #d9d9d9;
 }
 
 .custom-input {
     box-shadow: inset 0px 0px 5px 5px lightgrey;
+    border-radius: 10px;
+    /* background-color: #d9d9d9; */
 }
 
 .form-control:focus+.floating-label,
